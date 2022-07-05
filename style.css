@@ -4,8 +4,8 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(images/donation7.jpg);
+    background-image: linear-gradient(to bottom, rgba(8, 7, 7, 0.5),
+            rgba(0, 0, 0, 0.685)), url(images/donation7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -34,26 +34,121 @@ body {
 }
 
 
-.writing-part a {
+.donate-btn {
     color: #fff;
     text-decoration: none;
     background-color: #FF5959;
+    margin: 5px;
     padding: 10px;
     border-radius: 5px;
+
 }
 
 .collection {
-    width: 40%;
-    margin: 5px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 
 }
 
-.collection ul li {
-    float: left;
-    list-style-type: none;
-    margin: 20px;
+.collection h1 {
+
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.collection h5 {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 100;
+
+}
+
+.donate-money {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.donate-money a {
+    color: #707070;
+    background-color: #fff8f8;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+
+}
+
+#Target {
+
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 1px solid tomato;
+}
+
+h4 {
+    margin-top: 50px;
+    margin-bottom: 0px;
     text-align: center;
-    width: 90px;
-    height: 60px;
-    border: 1px solid red;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #707070;
+}
+
+hr {
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.donate-btn2 {
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF5959;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 450px;
+}
+
+.card-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    width: 20%;
+    padding: 10px;
+
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+.card img {
+
+    width: 15%;
+    margin-top: 20px;
+
+}
+
+.card h5 {
+    text-align: justify;
+}
+
+.color-1 {
+    background-color: #baf0f077;
+}
+
+.color-2 {
+    background-color: #ecadad41;
+}
+
+.color-3 {
+    background-color: #f0e1b86e;
 }
