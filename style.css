@@ -26,11 +26,11 @@ body {
     color: #fff;
 }
 
-.writing-part h5 {
+.writing-part p {
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: small;
-    font-weight: 100;
+    font-size: 15px;
+
 }
 
 
@@ -58,7 +58,7 @@ body {
 
 }
 
-.collection h5 {
+.collection p {
     color: #707070;
     font-size: 12px;
     font-weight: 100;
@@ -137,12 +137,17 @@ hr {
 
 }
 
-.card h5 {
-    text-align: justify;
+.card p {
+
+    text-align: left;
+    color: #707070;
+    font-size: 12px;
+    font-weight: 100;
+
 }
 
 .color-1 {
-    background-color: #baf0f077;
+    background-color: #c8eeee77;
 }
 
 .color-2 {
@@ -151,4 +156,25 @@ hr {
 
 .color-3 {
     background-color: #f0e1b86e;
+}
+
+.footer-section {
+    background-color: rgb(26, 23, 23);
+    padding: 10px;
+}
+
+.footer-section h2 {
+    text-align: center;
+    color: #FF5959
+}
+
+.footer-section h6 {
+    text-align: center;
+    color: #fff;
+}
+
+.box {
+    border: 1px solid red;
+    width: 50%;
+    height: 50%;
 }
