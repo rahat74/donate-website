@@ -4,8 +4,8 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(to bottom, rgba(8, 7, 7, 0.5),
-            rgba(0, 0, 0, 0.685)), url(images/donation7.jpg);
+    background-image: linear-gradient(to bottom, rgba(2, 1, 1, 0.062),
+            rgba(0, 0, 0, 0.842)), url(images/donation7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -157,30 +157,74 @@ hr {
     background-color: #f0e1b86e;
 }
 
-.footer-section {
-    background-color: rgb(26, 23, 23);
-    padding: 10px;
+
+.about {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
 }
 
-.footer-section h2 {
-    text-align: center;
-    color: #FF5959;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    font-family: 'Lobster', 'cursive';
+.img_container {
+    width: 50%;
+    position: relative;
+
 }
 
-.footer-section h6 {
-    text-align: center;
-    color: #fff;
+.about_img {
+    position: absolute;
+    background: url('images/donation9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    top: 100px;
+    left: 32%;
 }
 
+.about_content {
+    width: 50%;
+    padding: 80px 10% 80px 16%;
+    margin-right: 30px;
+    background-color: rgb(121, 241, 121);
+}
+
+.about_content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.about_content p {
+    padding-bottom: 30px;
+    line-height: 25px;
+    color: #707070;
+    text-align: justify;
+
+}
+
+.about_content a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px 40px;
+    background: linear-gradient(to right, transparent 50%, rgb(1, 161, 1) 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: .3s;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #000;
+}
 
 .box {
     width: 500px;
     height: 120px;
-    margin-left: 200px;
+    margin-left: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,24 +253,21 @@ hr {
 
 }
 
-
-.about .imgcontanner {
-    width: 50%;
-    position: relative;
-
+.footer-section {
+    background-color: rgb(26, 23, 23);
+    padding: 10px;
 }
 
+.footer-section h2 {
+    text-align: center;
+    color: #FF5959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Lobster', 'cursive';
+}
 
-
-
-.about-content .image-wraper {
-    position: absolute;
-    background: url('/images/donation9.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    top: 80px;
-    left: 32%;
+.footer-section h6 {
+    text-align: center;
+    color: #fff;
 }
